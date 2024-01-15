@@ -9,27 +9,11 @@ This project focuses on the development of a flower detection system using the X
 ## Features
 
 - **Xception Model:** Utilized the pre-trained Xception model for image classification tasks.
-- **Flower Dataset:** Trained the model on a dataset containing diverse images of flowers.
-- **Accuracy Metrics:** Evaluated the model's performance using accuracy metrics such as precision, recall, and F1-score.
+- **Flower Dataset:** Trained the model on a dataset containing diverse images of flowers('daisy', 'dandelion', 'roses', 'sunflowers', 'tulips').
+- **Accuracy Metrics:** Evaluated the model's performance using accuracy.
 - **Visualization:** Incorporated visualizations to showcase model predictions and performance metrics.
 - **Inference:** Provided a mechanism for making predictions on new flower images.
 
-## Project Structure
-
-|-- Flower_Detection_Project
-|-- notebooks
-|-- train_xception_model.ipynb
-|-- flower_detection_inference.ipynb
-|-- src
-|-- xception_model.py
-|-- flower_detector.py
-|-- data
-|-- flower_dataset
-|-- train
-|-- validation
-|-- test
-|-- README.md
-|-- requirements.txt
 
 ## Getting Started
 
@@ -41,10 +25,7 @@ This project focuses on the development of a flower detection system using the X
 - Matplotlib
 - Jupyter Notebook (for running notebooks)
 
-### Installation
 
-```bash
-pip install -r requirements.txt
-```
 ## Results
-Include any notable results, accuracy scores, and visualizations obtained during model training and evaluation.
+Train Accuracy: 1.0000
+Test Accuracy: 0.9532
